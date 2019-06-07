@@ -1,4 +1,5 @@
 const scriptElem = document.createElement('script');
+
 scriptElem.text = `
   (function initialize() {
     var CHECK_ID = 'check-answer';
@@ -29,7 +30,3 @@ scriptElem.text = `
 `;
 
 document.head.insertBefore(scriptElem, document.head.firstChild);
-
-// questionElem.addEventListener('onchange', function(e) {
-//   alert("yoees");
-// }, false);
